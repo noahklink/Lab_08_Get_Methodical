@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public class PrettyHeader {
+    static void main() {
+        SafeInput.prettyHeader("Message Centered Here");
+    }
 }

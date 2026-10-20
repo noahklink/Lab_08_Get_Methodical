@@ -153,7 +153,9 @@ public class SafeInput {
         for (int i = 1; i <= eachSideBlankSpace; i++) IO.print(" ");
         IO.print(msg);
         for (int i = 1; i <= eachSideBlankSpace; i++) IO.print(" ");
-        IO.print("***\n");
+        // account for uneven string len + add space
+        if (msg.length() % 2 == 0) IO.print("***\n");
+        else IO.print(" ***\n");
 
         for (int i = 1; i <= 60; i++) IO.print("*");
     }

@@ -1,5 +1,5 @@
 public class PrettyHeader {
     static void main() {
-        SafeInput.prettyHeader("Message Centered Here");
+        SafeInput.prettyHeader("Message Centered here");
     }
 }
